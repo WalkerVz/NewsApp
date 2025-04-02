@@ -35,3 +35,17 @@ Follow these steps to get the app running locally on your machine:
 
    ```bash
    git clone https://github.com/WalkerVz/NewsApp.git
+Install dependencies:
+
+2. Navigate to the project folder and install the necessary dependencies:
+
+Install dependencies:
+
+Navigate to the project folder and install the necessary dependencies:
+cd NewsApp
+npm install
+
+3. Create a .env file:
+
+You need a NewsAPI key to access the data. You can get it by signing up at NewsAPI. Once you have your key, create a .env file in the root of your project and add the following:
+REACT_APP_API_KEY=your_news_api_key
