@@ -1,12 +1,37 @@
-# React + Vite
+# NewsApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**NewsApp** is a React-based web application that fetches and displays the latest news articles using the NewsAPI. The app allows users to search for news articles by keywords, view top headlines, and paginate through articles.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search Functionality:** Allows users to search for news articles by keyword.
+- **Pagination:** Navigate through pages of news articles.
+- **Error Handling:** Displays appropriate error messages when news data cannot be fetched.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - A JavaScript library for building user interfaces.
+- **NewsAPI** - Provides access to news articles from various sources.
+- **Axios** - A promise-based HTTP client for the browser and Node.js, used to fetch news data.
+- **CSS** - Used to style the application.
+
+## Project Setup
+
+### Prerequisites
+
+Before you can run the project locally, you need to have the following installed:
+
+- [Node.js](https://nodejs.org/en/) - JavaScript runtime.
+- [npm](https://www.npmjs.com/) - Node package manager (comes with Node.js).
+
+### Getting Started
+
+Follow these steps to get the app running locally on your machine:
+
+1. **Clone the repository:**
+
+   Open your terminal/command prompt and clone the repository:
+
+   ```bash
+   git clone https://github.com/WalkerVz/NewsApp.git
