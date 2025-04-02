@@ -42,6 +42,7 @@ Install dependencies:
 Install dependencies:
 
 Navigate to the project folder and install the necessary dependencies:
+```bash
 cd NewsApp
 npm install
 
