@@ -35,7 +35,7 @@ Follow these steps to get the app running locally on your machine:
 
    ```bash
    git clone https://github.com/WalkerVz/NewsApp.git
-Install dependencies:
+   
 
 2. **Navigate to the project folder and install the necessary dependencies:**
 
@@ -45,6 +45,7 @@ Navigate to the project folder and install the necessary dependencies:
 ```bash
 cd NewsApp
 npm install
+```
 
 3. **Create a .env file:**
 
